@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "mindspace": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mindspace"
+    }
+  },
+  "defaultProject": "mindspace",
+  "cli": {
+    "analytics": "1137ab8f-ea94-492c-a501-c4c4a8f35108"
+  }
 }

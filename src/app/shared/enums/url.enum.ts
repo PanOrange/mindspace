@@ -1,3 +1,4 @@
 export enum Url {
-  DASHBOARD = 'dashboard'
+  DASHBOARD = 'dashboard',
+  ANGULAR = 'angular',
 }

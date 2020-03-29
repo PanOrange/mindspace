@@ -11,6 +11,7 @@ const routes: Routes = [
     children: [
       { path: '', pathMatch: 'full', redirectTo: Url.DASHBOARD },
       { path: Url.DASHBOARD, component: DashboardComponent },
+      { path: Url.ANGULAR, loadChildren: () => import('./angular/angular.module').then(m => m.AngularModule)}
     ]
   },
 ];

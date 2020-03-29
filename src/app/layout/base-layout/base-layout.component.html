@@ -2,12 +2,9 @@
     <td-navigation-drawer
         flex
         sidenavTitle="Mindspace"
-        icon="home"
-        name="Firstname Lastname"
-        email="firstname.lastname@company.com"
     >
         <mat-nav-list>
-            <a mat-list-item *ngFor="let menuItem of menu">
+            <a mat-list-item *ngFor="let menuItem of menu" [routerLink]="menuItem.link">
                 <mat-icon>{{ menuItem.icon || defaultIcon }}</mat-icon>
                 {{ menuItem.name }}</a
             >
@@ -21,7 +18,7 @@
             </mat-nav-list>
         </div>
     </td-navigation-drawer>
-    <td-layout-nav toolbarTitle="Covalent" navigationRoute="/">
+    <td-layout-nav toolbarTitle="Mindspace" navigationRoute="/">
         <button mat-icon-button td-menu-button tdLayoutToggle>
             <mat-icon>menu</mat-icon>
         </button>

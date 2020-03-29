@@ -16,6 +16,7 @@ import { AppComponent } from './app.component';
 import { LayoutModule } from "./layout/layout.module";
 import { DashboardModule } from "./dashboard/dashboard.module";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { AngularModule } from "./angular/angular.module";
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     CovalentMarkdownModule,
     CovalentDynamicFormsModule,
     // CovalentBaseEchartsModule,
+    AngularModule,
     LayoutModule,
     DashboardModule,
   ],

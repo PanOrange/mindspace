@@ -8,11 +8,11 @@ import { Url } from "../../shared/enums/url.enum";
 })
 export class BaseLayoutComponent implements OnInit {
   public menu = [
-    { name: 'dashboard', link: Url.DASHBOARD, icon: '' },
+    { name: 'dashboard', link: `/${Url.DASHBOARD}`, icon: '' },
+    { name: 'angular', link: `/${Url.ANGULAR}`, icon: '' },
   ];
 
   public defaultIcon: string = '';
-
 
   constructor() { }
 
